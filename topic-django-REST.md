@@ -12,7 +12,11 @@
 	And, register url in 
 	```book.urls.py```  
 	When server startup, then you can view api in  
-	http://127.0.0.1:8000/
+	http://127.0.0.1:8000/api/category/  
+	http://127.0.0.1:8000/api/publisher/  
+	http://127.0.0.1:8000/api/author/  
+	http://127.0.0.1:8000/api/book/  
+	
 
 - Snake-case to camel-case
 	Python is a language like all against c syntax, no curly brace block match and use snake-case for the variables.  
