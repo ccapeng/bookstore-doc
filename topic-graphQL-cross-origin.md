@@ -2,8 +2,7 @@
 
 - Repository : [https://github.com/ccapeng/bookstore_graphQL](https://github.com/ccapeng/bookstore_graphQL)
 
-- Implement middleware `corsapp.middle.py` to handle it.  
-
+- Implement middleware `corsapp.middle.py` to handle it.
 	``` python
 	from django.http import HttpResponse
 
@@ -30,11 +29,11 @@
 							response["Access-Control-Allow-Methods"] = "*"
 
 					return response
-	```  
+	```
 	
-	- To bypass cross origin, 3 access control attributes were added to response.
-	
-	- Furthermore, browser will poke cross site server with `OPTIONS` method.  
-		So for the `graphQL` url, we need to return `response` in here; otherwise exception will throw out when passing into graphQL process.
+- To bypass cross origin, 3 access control attributes were added to response.
+
+- Furthermore, browser will poke cross site server with `OPTIONS` method.  
+	So for the `graphQL` url, we need to return `response` in here; otherwise exception will throw out when passing into graphQL process.
 
 	
