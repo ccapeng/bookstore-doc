@@ -1,4 +1,4 @@
-# The Power of Django REST framework
+# Django REST framework
 
 - The source repository is [https://github.com/ccapeng/bookstore_api](https://github.com/ccapeng/bookstore_api)
 
@@ -6,9 +6,10 @@
 	```pip install djangorestframework```
 
 - In the regular django, you need to implement view in order to output data.  
-	with REST framework, only need to serializer :  
-	```book.serializers.py```  
-	and register url in  
+	with REST framework, only need to implement serializer 
+	`book.serializers.py`
+	in order to save data.  
+	And, register url in 
 	```book.urls.py```  
 	When server startup, then you can view api in  
 	http://127.0.0.1:8000/
