@@ -3,9 +3,10 @@
 - Repository : 
 	[https://github.com/ccapeng/bookstore_graphQL](https://github.com/ccapeng/bookstore_graphQL)
 
-- Implement middleware `corsapp.middleware.CorsMiddleware` to handle `request` and `response`.
+- To handle `request` and `response`,  
+	implement middleware `corsapp.middleware.CorsMiddleware`
 
-	``` python
+	```python
 	
 	from django.http import HttpResponse
 
@@ -34,8 +35,9 @@
 			return response
 			
 	```
-	And adjust `bookstore_graphql.settings.py`
-	``` python
+	
+	And adjust settings in `bookstore_graphql.settings.py`
+	```python
 	MIDDLEWARE = [
 		...
 		'corsapp.middleware.CorsMiddleware',
@@ -48,5 +50,3 @@
 - Furthermore, browser will poke cross site server with `OPTIONS` method.  
 	So for the `graphQL` url with `OPTIONS`, we need to return `response` in here,  
 	since `graphQL` only take `GET` and `POST` methods.
-
-	

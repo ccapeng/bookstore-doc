@@ -10,6 +10,7 @@ Do I have any options? Here, I have some answers.
 
 In here, I am going to use bookstore model as example in some different kinds of projects.
 
+<img src="bookstore.png" width="766" height="349" />
 
 ## Bookstore Projects in Github
 
@@ -45,8 +46,7 @@ In here, I am going to use bookstore model as example in some different kinds of
 
 - gRPC : coming
 
-- Put together :  
-	<img src="bookstore.png" width="766" height=349 />
+	
 
 - Migration Options
 	- [Use Open API data model](topic-use-open-api.md)
