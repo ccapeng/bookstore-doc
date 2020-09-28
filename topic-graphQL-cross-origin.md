@@ -4,7 +4,7 @@
 
 - Implement middleware `corsapp.middle.py` to handle it.  
 
-	```
+	``` python
 	from django.http import HttpResponse
 
 
@@ -30,7 +30,7 @@
 							response["Access-Control-Allow-Methods"] = "*"
 
 					return response
-	```
+	```  
 	
 	- To bypass cross origin, 3 access control attributes were added to response.
 	
