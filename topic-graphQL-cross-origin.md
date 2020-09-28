@@ -2,7 +2,7 @@
 
 - Repository : [https://github.com/ccapeng/bookstore_graphQL](https://github.com/ccapeng/bookstore_graphQL)
 
-- Implement middleware `corsapp.middle.py` to handle it.
+- Implement middleware `corsapp.middle.py` to handle it.  
 
 	```
 	from django.http import HttpResponse
