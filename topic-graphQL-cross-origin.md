@@ -31,6 +31,7 @@
 
 					return response
 	```
+	
 	- To bypass cross origin, 3 access control attributes were added to response.
 	
 	- Furthermore, browser will poke cross site server with `OPTIONS` method.  

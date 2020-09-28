@@ -56,7 +56,7 @@ In here, I am going to use bookstore model as example in some different kinds of
 	
 
 
-## Other Topics
+## Other Topics (more experiences to share)
 
 - [Best practice of programming](https://ccapeng.gitbook.io/programming/)
 
