@@ -14,8 +14,6 @@
 	When server startup, then you can view api in  
 	http://127.0.0.1:8000/
 
-
-
 - Snake-case to camel-case
 	Python is a language like all against c syntax, no curly brace block match and use snake-case for the variables.  
 	In general, we also use camel-case in javascript, json.  
@@ -31,17 +29,16 @@
 	So in the settings.py, also update:
 	``` python
 	REST_FRAMEWORK = {
+		'DEFAULT_RENDERER_CLASSES': (
+			'utils.api.renderers.CamelCaseJSONRenderer',
+			'rest_framework.renderers.BrowsableAPIRenderer',
+		),
 
-			'DEFAULT_RENDERER_CLASSES': (
-					'utils.api.renderers.CamelCaseJSONRenderer',
-					'rest_framework.renderers.BrowsableAPIRenderer',
-			),
-
-			'DEFAULT_PARSER_CLASSES': (
-					'utils.api.parsers.CamelCaseJSONRenderer',
-					'rest_framework.parsers.FormParser',
-					'rest_framework.parsers.MultiPartParser'
-			),
+		'DEFAULT_PARSER_CLASSES': (
+			'utils.api.parsers.CamelCaseJSONRenderer',
+			'rest_framework.parsers.FormParser',
+			'rest_framework.parsers.MultiPartParser'
+		),
 	}
 	```
 
@@ -51,14 +48,14 @@
 	``` python
 	class CorsMiddleware(object):
 
-			def __init__(self, get_response):
-					self.get_response = get_response
+		def __init__(self, get_response):
+			self.get_response = get_response
 
-			def __call__(self, request):
-					response = self.get_response(request)
-					response["Access-Control-Allow-Origin"] = "*"
-					response["Access-Control-Allow-Headers"] = "*"
-					response["Access-Control-Allow-Methods"] = "*"
+		def __call__(self, request):
+			response = self.get_response(request)
+			response["Access-Control-Allow-Origin"] = "*"
+			response["Access-Control-Allow-Headers"] = "*"
+			response["Access-Control-Allow-Methods"] = "*"
 
-					return response
+			return response
 	```

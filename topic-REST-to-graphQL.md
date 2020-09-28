@@ -1,6 +1,7 @@
 # Migrate REST to GraphQL
 
-![Migrate rest to graphQL](rest-to-graphQL.png)  
+<img src="rest-to-graphQL.png" width="766" height=349 />
+
 Only the red text parts are different.
 
 - Repositories

@@ -46,7 +46,7 @@ In here, I am going to use bookstore model as example in some different kinds of
 - gRPC : coming
 
 - Put together :  
-	![Bookstores](bookstore.png)
+	<img src="bookstore.png" width="766" height=349 />
 
 - Migration Options
 	- Use Open API data model
