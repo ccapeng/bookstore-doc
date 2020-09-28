@@ -11,12 +11,15 @@ Only the red text parts are different.
 - Backend differences
 	- REST : 
 		- [restframework]()
-		- Implementation of serializers.py
+		- Implementation of  
+			book.apis.py  
+			book.serializers.py
 		- Middleware cors : bypass the cross site origin.
 		- Handle snake-case and camel-case inconsistency.
 	- GraphQL : 
 		- [graphene]()
-		- Implementation of schema.py
+		- Implementation of  
+			book.schema.py
 		- Middleware cors : bypass the cross site origin and `OPTIONS` method.
 		
 		
