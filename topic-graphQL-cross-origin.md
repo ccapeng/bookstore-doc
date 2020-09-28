@@ -1,8 +1,9 @@
 # GraphQL Cross Origin
 
-- Repository : [https://github.com/ccapeng/bookstore_graphQL](https://github.com/ccapeng/bookstore_graphQL)
+- Repository : 
+	[https://github.com/ccapeng/bookstore_graphQL](https://github.com/ccapeng/bookstore_graphQL)
 
-- Implement middleware `corsapp.middleware.py` to handle it.
+- Implement middleware `corsapp.middleware.CorsMiddleware` to handle `request` and `response`.
 
 	``` python
 	
@@ -33,9 +34,19 @@
 			return response
 			
 	```
+	And adjust `bookstore_graphql.settings.py`
+	``` python
+	MIDDLEWARE = [
+		...
+		'corsapp.middleware.CorsMiddleware',
+	]
+	
+	```
+	
 - To bypass cross origin, 3 access control attributes were added to `response`.
 
 - Furthermore, browser will poke cross site server with `OPTIONS` method.  
-	So for the `graphQL` url with `OPTIONS`, we need to return `response` in here, since `graphQL` only take `GET` and `POST` methods.
+	So for the `graphQL` url with `OPTIONS`, we need to return `response` in here,  
+	since `graphQL` only take `GET` and `POST` methods.
 
 	

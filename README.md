@@ -49,11 +49,10 @@ In here, I am going to use bookstore model as example in some different kinds of
 	<img src="bookstore.png" width="766" height=349 />
 
 - Migration Options
-	- Use Open API data model
-	- Switch between Django and Go.
-	- The react context and redux difference
-	- Migration from REST to GraphQL.
-	
+	- [Use Open API data model](topic-use-open-api.md)
+	- [Switch between Django and Go](topic-switch-between-django-and-go.md)
+	- [React context and redux difference](topic-react-context-and-redux-diff.md)
+	- [Migrate from REST to GraphQL](topic-REST-to-graphQL.md)
 
 
 ## Other Topics (more experiences to share)
