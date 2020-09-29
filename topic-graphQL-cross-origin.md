@@ -3,11 +3,10 @@
 - Repository : 
 	[https://github.com/ccapeng/bookstore_graphQL](https://github.com/ccapeng/bookstore_graphQL)
 
-- To handle `request` and `response`,  
+- To handle corss site origin `request` and `response`,  
 	implement middleware `corsapp.middleware.CorsMiddleware`
 
 	```python
-	
 	from django.http import HttpResponse
 
 
@@ -33,7 +32,6 @@
 				response["Access-Control-Allow-Methods"] = "*"
 
 			return response
-			
 	```
 	
 	And adjust settings in `bookstore_graphql.settings.py`
