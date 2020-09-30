@@ -1,5 +1,3 @@
-<article style="font-size:1.25rem">
-
 # Bookstore
 
 In these days, most of applications are on the web.  
@@ -71,5 +69,3 @@ In here, I am going to use bookstore model as example in some different kinds of
 ## Contact Me
 
 >>alex at `ccapeng@gmail.com` | ccapeng.github.io/bio
-
-</article>
