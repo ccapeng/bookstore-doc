@@ -1,3 +1,5 @@
+<article style="font-size:1.25rem">
+
 # Bookstore
 
 In these days, most of applications are on the web.  
@@ -64,3 +66,10 @@ In here, I am going to use bookstore model as example in some different kinds of
 - [Namespace](https://ccapeng.gitbook.io/namespace/)
 
 - [Context](https://ccapeng.gitbook.io/context/)
+
+
+## Contact Me
+
+>>alex at `ccapeng@gmail.com` | ccapeng.github.io/bio
+
+</article>
