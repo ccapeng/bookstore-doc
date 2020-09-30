@@ -7,9 +7,6 @@
 	implement middleware `corsapp.middleware.CorsMiddleware`
 
 	```python
-	from django.http import HttpResponse
-
-
 	class CorsMiddleware(object):
 
 		def __init__(self, get_response):
@@ -35,12 +32,11 @@
 	```
 	
 	And adjust settings in `bookstore_graphql.settings.py`
-	```python
+	``` python
 	MIDDLEWARE = [
 		...
 		'corsapp.middleware.CorsMiddleware',
 	]
-	
 	```
 	
 - To bypass cross origin, 3 access control attributes were added to `response`.
