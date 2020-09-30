@@ -68,4 +68,4 @@ In here, I am going to use bookstore model as example in some different kinds of
 
 ## Contact Me
 
-`ccapeng@gmail.com` | [`ccapeng.github.io/bio`](https://ccapeng.github.io/bio)
+`ccapeng@gmail.com` | [`ccapeng.github.io`](https://ccapeng.github.io)
