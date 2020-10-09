@@ -17,6 +17,10 @@ In here, I am going to use bookstore model as example in some different kinds of
 - Fullstack MVC
 	- [Django MVC](https://github.com/ccapeng/django-bookstore)
 	- [Django REST Framework + React](https://github.com/ccapeng/bookstore_api)
+	- [Protected React](https://github.com/ccapeng/bookstore_pro)  
+		Django REST Framework + Protected React JS  
+		Need to login to have both REST APIs and React JS to work.  
+		[How this works?]()
 	- [Go & Beego](https://github.com/ccapeng/beego-bookstore)
 
 - REST
