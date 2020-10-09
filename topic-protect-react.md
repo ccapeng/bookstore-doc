@@ -10,7 +10,7 @@
 		<div id="app"></div>
 		<script src="/js/main.js"></script>
 	```
-	and in `fontend/urls.py`, map js to urlpatterns.
+	and in `fontend/urls.py`, map `js` to `urlpatterns`.
 	``` python
 	urlpatterns = [
 			path('', views.index),
@@ -41,7 +41,7 @@
 - Also in the django restframework, all views are login required.  
 	`LoginRequiredMixin` is always the first argument in the class.
 
-	```
+	``` python
 	class CategoryViewSet(LoginRequiredMixin, viewsets.ModelViewSet):
 			""" Category ViewSet """
 			login_url = '/login/'
