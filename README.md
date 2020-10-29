@@ -48,8 +48,15 @@ In here, I am going to use bookstore model as example in some different kinds of
 		
 	- [How to handle cross origin?](topic-graphQL-cross-origin.md)
 
-- gRPC : coming
+- gRPC  
 
+	- Backend
+		[Django gRPC](https://github.com/ccapeng/bookstore_grpc).  
+		Go : coming
+	- Frontend
+		- [React redux grpc](https://github.com/ccapeng/bookstore-redux-grpc)
+		
+	- How to migrate from REST? (coming)
 	
 
 - Migration Options
