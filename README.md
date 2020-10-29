@@ -10,7 +10,7 @@ Do I have any options? Here, I have some answers.
 
 In here, I am going to use bookstore model as example in some different kinds of projects.
 
-<img src="bookstore.png" width="766" height="349" />
+<img src="bookstore-2.png" width="766" height="349" />
 
 ## Bookstore Projects in Github
 
