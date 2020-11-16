@@ -30,7 +30,7 @@ _At this moment, I got most of coding sample ready. Will still need to catch up 
 
 * Fullstack MVC
   * [Django MVC](https://github.com/ccapeng/django-bookstore)
-    * [From validation in view class](topic-django-class-view-validation.md)
+    * [Form validation in view class](topic-django-class-view-validation.md)
     
   * [Django REST Framework + React](https://github.com/ccapeng/bookstore_api)
     * [Serializer customization](topic-serializer-customization.md)
