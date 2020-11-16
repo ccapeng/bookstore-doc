@@ -30,14 +30,19 @@ _At this moment, I got most of coding sample ready. Will still need to catch up 
 
 * Fullstack MVC
   * [Django MVC](https://github.com/ccapeng/django-bookstore)
+    * [From validation in view class](topic-django-class-view-validation.md)
+    
   * [Django REST Framework + React](https://github.com/ccapeng/bookstore_api)
+    * [Serializer customization](topic-serializer-customization.md)
+    * [Serializer validation](topic-serializer-validation.md)
+    
   * [Protected React](https://github.com/ccapeng/bookstore_pro)  
 
       Django REST Framework + Protected React JS  
 
       Need to login to have both REST APIs and React JS to work.  
 
-      [How this works?](./)
+      [How this works?](topic-protect-react.md)
 
   * [Go & Beego](https://github.com/ccapeng/beego-bookstore)
 * REST
@@ -67,37 +72,20 @@ _At this moment, I got most of coding sample ready. Will still need to catch up 
   * Frontend
     * [React redux grpc](https://github.com/ccapeng/bookstore-redux-grpc)
   * How to migrate from REST? \(coming\)
+  
 * Migration Options
   * [Use Open API data model](topic-use-open-api.md)
   * [Switch between Django and Go](topic-switch-between-django-and-go.md)
   * [React context and redux difference](topic-react-context-and-redux-diff.md)
   * [Migrate from REST to GraphQL](topic-rest-to-graphql.md)
 
-### Bookstore Projects in Github
 
 ## Other Topics \(more experiences to share\)
-
-* [Django Function Implementation](https://github.com/ccapeng/django-bookstore)
-* [Django REST Framework](https://github.com/ccapeng/bookstore_api)
-* [Go & Beego](https://github.com/ccapeng/beego-bookstore)
-* [React Redux](https://github.com/ccapeng/bookstore-hook-redux) : frontend only. Use Django REST Framework as backend.
-* [React Context](https://github.com/ccapeng/bookstore-context)
-* React Redux in typescript. \(Coming soon\)
-* How to use open API to quick implement backend. \(Coming soon\)
-* React comprehensive tutorial. \(Coming soon\)
 * [Best practice of programming](https://ccapeng.gitbook.io/programming/)
 * [Graph](https://ccapeng.gitbook.io/graph/)
 * [Namespace](https://ccapeng.gitbook.io/namespace/)
 * [Context](https://ccapeng.gitbook.io/context/)
-
-### Other Topics
 
 ## Contact Me
-
-* [Best practice of programming](https://ccapeng.gitbook.io/programming/)
-* [Graph](https://ccapeng.gitbook.io/graph/)
-* [Namespace](https://ccapeng.gitbook.io/namespace/)
-* [Context](https://ccapeng.gitbook.io/context/)
-
 `ccapeng@gmail.com` \| [`ccapeng.github.io`](https://ccapeng.github.io)
 
