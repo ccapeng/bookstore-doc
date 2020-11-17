@@ -1,4 +1,4 @@
-# Protect react javascript
+# Server Side React Javascript
 
 * The source repository is [https://github.com/ccapeng/bookstore\_pro](https://github.com/ccapeng/bookstore_pro)
 * Once you have react deployed to public web site, then you have exposed your code logic.
@@ -25,7 +25,7 @@
   I have js output from django view.
 
 * In `frontend/views.py`, the js file is only available after login.
-
+  JS is a protected file, then just output file system.
   ```python
     @login_required(login_url='/login/')
     def js(request, filename):
@@ -37,8 +37,9 @@
                             return response
 
             raise Http404
-  ```
-
+  ```  
+  Through this concept, server side react can be in any kind back end server.
+  
 * Also in the django restframework, all views are login required.  
   `LoginRequiredMixin` is always the first argument in the class.
 
@@ -50,5 +51,4 @@
             queryset = Category.objects.all()
   ```
 
--
 

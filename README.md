@@ -1,9 +1,10 @@
-# Bookstore
+# Bookstore of REST, graphQL, gRPC
 
-
+[View full document](https://ccapeng.gitbook.io/bookstores/)  
 
 In these days, most of applications are on the web.  
-With various frameworks, how do you find a good pick?
+With various frameworks, how do you find a good pick?  
+
 
 ## Bookstore
 
@@ -36,17 +37,17 @@ _At this moment, I got most of coding sample ready. Will still need to catch up 
     * [Serializer customization](topic-serializer-customization.md)
     * [Serializer validation](topic-serializer-validation.md)
     
-  * [Protected React](https://github.com/ccapeng/bookstore_pro)  
+  * [Server Side React](https://github.com/ccapeng/bookstore_pro)  
 
-      Django REST Framework + Protected React JS  
+      Django REST Framework + Fully Server Side React JS (No Next.js)  
 
       Need to login to have both REST APIs and React JS to work.  
-
+      No React JS expose to public.   
       [How this works?](topic-protect-react.md)
 
   * [Go & Beego](https://github.com/ccapeng/beego-bookstore)
 * REST
-  * Data model: coming
+  * [Data model](topic-django-rest.md)
   * Backend
     * \[Django REST Framework Full Stack\]\(\([https://github.com/ccapeng/bookstore\_api](https://github.com/ccapeng/bookstore_api)\)\) from fullstatck.
       * [Django REST framework](topic-django-rest.md)
@@ -61,7 +62,7 @@ _At this moment, I got most of coding sample ready. Will still need to catch up 
   * Backend [Django Graphene](https://github.com/ccapeng/bookstore_graphene).
   * Frontend
     * [React redux graphQL](https://github.com/ccapeng/bookstore-redux-graphql)
-  * [How to handle cross origin?](topic-graphql-cross-origin.md)
+  * [Migrate from REST to GraphQL](topic-rest-to-graphql.md)
 * gRPC
   * Backend
 
@@ -77,7 +78,7 @@ _At this moment, I got most of coding sample ready. Will still need to catch up 
   * [Use Open API data model](topic-use-open-api.md)
   * [Switch between Django and Go](topic-switch-between-django-and-go.md)
   * [React context and redux difference](topic-react-context-and-redux-diff.md)
-  * [Migrate from REST to GraphQL](topic-rest-to-graphql.md)
+  * [How to handle cross origin?](topic-cross-origin.md)
 
 
 ## Other Topics \(more experiences to share\)
@@ -87,5 +88,7 @@ _At this moment, I got most of coding sample ready. Will still need to catch up 
 * [Context](https://ccapeng.gitbook.io/context/)
 
 ## Contact Me
-`ccapeng@gmail.com` \| [`ccapeng.github.io`](https://ccapeng.github.io)
+`ccapeng@gmail.com` \| [`ccapeng.github.io`](https://ccapeng.github.io)  
+
+[View full document](https://ccapeng.gitbook.io/bookstores/)  
 
