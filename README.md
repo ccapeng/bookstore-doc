@@ -6,7 +6,7 @@ In these days, most of applications are on the web.
 With various frameworks, how do you find a good pick?  
 
 
-## Bookstore
+## Bookstore Architecture
 
 To do mock up or presentation, we want to the application ready in a short time to demonstrate to manager team. When the business plan initial, can you still back on the mock up continue to work or move to other higher performance framework?  
 Or what if I want to switch framework after some works done.  
