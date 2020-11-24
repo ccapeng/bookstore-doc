@@ -49,7 +49,7 @@ _At this moment, I got most of coding sample ready. Will still need to catch up 
 * REST
   * [Data model](topic-django-rest.md)
   * Backend
-    * \[Django REST Framework Full Stack\]\(\([https://github.com/ccapeng/bookstore\_api](https://github.com/ccapeng/bookstore_api)\)\) from fullstatck.
+    * [Django REST Framework Full Stack](https://github.com/ccapeng/bookstore_api) from fullstatck.
       * [Django REST framework](topic-django-rest.md)
     * Go: coming
   * Frontend
@@ -81,14 +81,14 @@ _At this moment, I got most of coding sample ready. Will still need to catch up 
   * [How to handle cross origin?](topic-cross-origin.md)
 
 
-## Other Topics \(more experiences to share\)
+## Other Topics -- more experiences to share
 * [Best practice of programming](https://ccapeng.gitbook.io/programming/)
 * [Graph](https://ccapeng.gitbook.io/graph/)
 * [Namespace](https://ccapeng.gitbook.io/namespace/)
 * [Context](https://ccapeng.gitbook.io/context/)
 
 ## Contact Me
-`ccapeng@gmail.com` \| [`ccapeng.github.io`](https://ccapeng.github.io)  
+`ccapeng@gmail.com`  [`ccapeng.github.io`](https://ccapeng.github.io)  
 
 [View full document](https://ccapeng.gitbook.io/bookstores/)  
 

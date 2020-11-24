@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Home](README.md)
+* [REST Bookstore](README.md)
 * [Django REST framework](topic-django-rest.md)
 * [Use Open API data model](topic-use-open-api.md)
 * [Server Side react javascript](topic-protect-react.md)
