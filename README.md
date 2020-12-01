@@ -27,17 +27,16 @@ In here, I am going to have solution of how to do.
 
 ## Bookstore Projects in Github
 
-_At this moment, I got most of coding sample ready. Will still need to catch up all the writing._
+At this moment, I got most of coding sample ready. Will still need to catch up all the writing._
 
 * Fullstack MVC
   * [Django MVC](https://github.com/ccapeng/django-bookstore)
     * [Form validation in view class](topic-django-class-view-validation.md)
     
   * [Django REST Framework + React](https://github.com/ccapeng/bookstore_api)
-    * [Serializer customization](topic-serializer-customization.md)
     * [Serializer validation](topic-serializer-validation.md)
     
-  * [Server Side React](https://github.com/ccapeng/bookstore_pro)  
+  * [Server Side React, login required](https://github.com/ccapeng/bookstore_pro)  
 
       Django REST Framework + Fully Server Side React JS (No Next.js)  
 
