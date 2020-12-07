@@ -44,34 +44,42 @@ At this moment, I got most of coding sample ready. Will still need to catch up a
       No React JS expose to public.   
       [How this works?](topic-protect-react.md)
 
-  * [Go & Beego](https://github.com/ccapeng/beego-bookstore)
+  * [Go & Beego](https://github.com/ccapeng/beego-bookstore)  
+
 * REST
   * [Data model](topic-django-rest.md)
   * Backend
     * [Django REST Framework Full Stack](https://github.com/ccapeng/bookstore_api) from fullstatck.
       * [Django REST framework](topic-django-rest.md)
     * Go: coming
+    * Java: coming  
+
   * Frontend
     * [React Context](https://github.com/ccapeng/bookstore-context)
     * [React Redux](https://github.com/ccapeng/bookstore-redux)
     * [React Hook Redux](https://github.com/ccapeng/bookstore-hook-redux)
     * [React Hook Redux TypeScript](https://github.com/ccapeng/bookstore-tx-redux)
     * React Hook Redux TypeScript Advance : coming
+    * PWA: comping
+    * Lazy loading and Dynamic imports: coming
+    * Server-rendered deno w/Aleph: coming
+
 * GraphQL
   * Backend [Django Graphene](https://github.com/ccapeng/bookstore_graphene).
   * Frontend
     * [React redux graphQL](https://github.com/ccapeng/bookstore-redux-graphql)
-  * [Migrate from REST to GraphQL](topic-rest-to-graphql.md)
+  * [Migrate from REST to GraphQL](topic-rest-to-graphql.md)  
+
 * gRPC
   * Backend
 
       [Django gRPC](https://github.com/ccapeng/bookstore_grpc).  
 
-      Go : coming
+      * Go : coming
 
   * Frontend
     * [React redux grpc](https://github.com/ccapeng/bookstore-redux-grpc)
-  * How to migrate from REST? \(coming\)
+  * How to migrate from REST? \(coming\)  
   
 * Migration Options
   * [Use Open API data model](topic-use-open-api.md)
