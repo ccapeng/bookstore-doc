@@ -32,6 +32,7 @@ At this moment, I got most of coding sample ready. Will still need to catch up a
 * Fullstack MVC
   * [Django MVC](https://github.com/ccapeng/django-bookstore)
     * [Form validation in view class](topic-django-class-view-validation.md)
+		* Use PyPy to increase performance: coming
     
   * [Django REST Framework + React](https://github.com/ccapeng/bookstore_api)
     * [Serializer validation](topic-serializer-validation.md)
@@ -44,7 +45,9 @@ At this moment, I got most of coding sample ready. Will still need to catch up a
       No React JS expose to public.   
       [How this works?](topic-protect-react.md)
 
-  * [Go & Beego](https://github.com/ccapeng/beego-bookstore)  
+  * [Go & Beego](https://github.com/ccapeng/beego-bookstore)
+	
+	* Electron (Coming)
 
 * REST
   * [Data model](topic-django-rest.md)
@@ -63,6 +66,7 @@ At this moment, I got most of coding sample ready. Will still need to catch up a
     * PWA: comping
     * Lazy loading and Dynamic imports: coming
     * Server-rendered deno w/Aleph: coming
+		* React with simple state management Jotai : coming
 
 * GraphQL
   * Backend [Django Graphene](https://github.com/ccapeng/bookstore_graphene).
