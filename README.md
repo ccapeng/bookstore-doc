@@ -3,31 +3,26 @@
 [View full document](https://ccapeng.gitbook.io/bookstores/)  
 
 In these days, most of applications are on the web.  
-With various frameworks, how do you find a good pick?  
+With various frameworks, how do you pick for your need?  
 
 
-## Bookstore Architecture
+## Framework selection and transition
 
-To do mock up or presentation, we want to the application ready in a short time to demonstrate to manager team. When the business plan initial, can you still back on the mock up continue to work or move to other higher performance framework?  
-Or what if I want to switch framework after some works done.  
-Do I have any options? Here, I have some answers.
+In the simple data collection/presentation, 
+we want to the application ready in a short time.  
+In a mission critical transaction, we may consider the performance.  
 
-In these days, most of applications are on the web.  
-With various frameworks, how do you find a good pick?
+What if you want to have a quick prototype to present to manager team, 
+then deep dive into the right solution after planned?  
+In here, I am going to have solution of how to do.  
 
 In here, I am going to use bookstore model as example in some different kinds of projects.
 
-<img src="bookstore-2.png" width="766" height="349" />
+<img src="bookstore.png" width="100%"/>
 
-In the simple data collection/presentation, we want to the application ready in a short time.  
-In a mission critical transaction, we may consider the performance.
-
-What if you want to have a quick prototype to present to manager team, then deep dive into the right solution after planned?  
-In here, I am going to have solution of how to do.
 
 ## Bookstore Projects in Github
 
-At this moment, I got most of coding sample ready. Will still need to catch up all the writing._
 
 * Fullstack MVC
   * [Django MVC](https://github.com/ccapeng/django-bookstore)
@@ -47,7 +42,7 @@ At this moment, I got most of coding sample ready. Will still need to catch up a
 
   * [Go & Beego](https://github.com/ccapeng/beego-bookstore)
 	
-	* Electron (Coming)
+  * Electron (Coming)
 
 * REST
   * [Data model](topic-django-rest.md)
@@ -66,7 +61,8 @@ At this moment, I got most of coding sample ready. Will still need to catch up a
     * PWA: comping
     * Lazy loading and Dynamic imports: coming
     * Server-rendered deno w/Aleph: coming
-		* React with simple state management Jotai : coming
+    * [React with simple state management Jotai](https://github.com/ccapeng/bookstore-hook-jotai)
+      * Migrate from Reduc to Jotai: Coming
 
 * GraphQL
   * Backend [Django Graphene](https://github.com/ccapeng/bookstore_graphene).
