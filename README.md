@@ -1,7 +1,5 @@
 # Bookstore of REST, graphQL, gRPC
 
-[View full document](https://ccapeng.gitbook.io/bookstores/)  
-
 In these days, most of applications are on the web.  
 With various frameworks, how do you pick for your need?  
 
