@@ -41,7 +41,9 @@ In here, I am going to use bookstore model as example in some different kinds of
       [How this works?](topic-protect-react.md)
 
   * [Go & Beego](https://github.com/ccapeng/beego-bookstore)
-	
+  
+  * [Laravel php](https://github.com/ccapeng/laravel_bookstore)
+  
   * Electron (Coming)
 
 * REST
@@ -61,7 +63,7 @@ In here, I am going to use bookstore model as example in some different kinds of
     * PWA: comping
     * Lazy loading and Dynamic imports: coming
     * Server-rendered deno w/Aleph: coming
-    * [React with simple state management Jotai](https://github.com/ccapeng/bookstore-hook-jotai)
+    * [React with simple state management Jotai](https://github.com/ccapeng/bookstore-jotai)
       * Migrate from Reduc to Jotai: Coming
 
 * GraphQL
