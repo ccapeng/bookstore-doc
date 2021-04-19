@@ -28,7 +28,7 @@
 * The tricky part is how to show in the template.
 
   File : `book/templates/book.author_form.html`
-  ``` html
+  ```
   {% load dict_key %}
   ...
   <form method="post">{% csrf_token %}
