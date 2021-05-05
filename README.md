@@ -13,10 +13,9 @@ In a mission critical transaction, we may consider the performance.
 What if you want to have a quick prototype to present to manager team, 
 then deep dive into the right solution after planned?  
 In here, I am going to have solution of how to do.  
+Use bookstore model as example in some different kinds of projects.
 
-In here, I am going to use bookstore model as example in some different kinds of projects.
-
-<img src="bookstore.png" width="100%"/>
+![Tech Stacks](bookstore.png)
 
 
 ## Bookstore Projects in Github
@@ -47,22 +46,21 @@ In here, I am going to use bookstore model as example in some different kinds of
 * REST
   * [Data model](topic-django-rest.md)
   * Backend
-    * [Django REST Framework Full Stack](https://github.com/ccapeng/bookstore_api) from fullstatck.
-      * [Django REST framework](topic-django-rest.md)
+    * [Python Django REST](https://github.com/ccapeng/bookstore_openapi)
+    * [Python Flask REST](https://github.com/ccapeng/bookstore_flask_api)
+    * [Node.js w/typeORM](https://github.com/ccapeng/typeorm-bookstore)
     * Go: coming
     * Java: coming  
 
   * Frontend
     * [React Context](https://github.com/ccapeng/bookstore-context)
-    * [React Redux](https://github.com/ccapeng/bookstore-redux)
     * [React Hook Redux](https://github.com/ccapeng/bookstore-hook-redux)
     * [React Hook Redux TypeScript](https://github.com/ccapeng/bookstore-tx-redux)
     * React Hook Redux TypeScript Advance : coming
     * PWA: comping
     * Lazy loading and Dynamic imports: coming
-    * Server-rendered deno w/Aleph: coming
-    * [React with simple state management Jotai](https://github.com/ccapeng/bookstore-jotai)
-      * Migrate from Reduc to Jotai: Coming
+    * [React with Jotai](https://github.com/ccapeng/bookstore-jotai)
+      * Migrate state management from Redux to Jotai: Coming
 
 * GraphQL
   * Backend [Django Graphene](https://github.com/ccapeng/bookstore_graphene).
@@ -75,15 +73,20 @@ In here, I am going to use bookstore model as example in some different kinds of
 
       [Django gRPC](https://github.com/ccapeng/bookstore_grpc).  
 
-      * Go : coming
 
   * Frontend
     * [React redux grpc](https://github.com/ccapeng/bookstore-redux-grpc)
   * How to migrate from REST? \(coming\)  
   
-* Migration Options
-  * [Use Open API data model](topic-use-open-api.md)
-  * [Switch between Django and Go](topic-switch-between-django-and-go.md)
+* Migration Options:
+  * Migrate Your Prototype to Your Coding framework :
+    * Once your have prototype for demo, 
+      [Use Open API data model](topic-use-open-api.md) to migrate.  
+      Django is battery included framework.   
+      It can be set up easy for the presentation.  
+      Once you have ideas to demo to team, you can start use the following to migrate.
+    * [Migrate Django to Flask](topic-migrate-django-to-flask.md)
+    * [Migrate Django to Node](topic-migrate-django-to-node.md)
   * [React context and redux difference](topic-react-context-and-redux-diff.md)
   * [How to handle cross origin?](topic-cross-origin.md)
 
