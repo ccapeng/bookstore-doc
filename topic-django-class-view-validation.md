@@ -29,19 +29,19 @@
 
   File : `book/templates/book.author_form.html`
   ```
-  {% load dict_key %}
+  {{% load dict_key %}}
   ...
-  <form method="post">{% csrf_token %}
+  <form method="post">{{% csrf_token %}}
 
-    {% if form.errors %}
+    {{% if form.errors %}}
     <div class="mt-3 mb-3">
-      {%for k in form.errors %}
+      {{%for k in form.errors %}}
       <div class="text-danger">
         {{ form.errors|dict_key:k }}
       </div>
-      {% endfor %}
+      {{% endfor %}}
     </div>
-    {% endif %}
+    {{% endif %}}
     ...
   </form>
   ```
