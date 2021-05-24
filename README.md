@@ -41,23 +41,22 @@ Use bookstore model as example in some different kinds of projects.
   
   * [Laravel php](https://github.com/ccapeng/laravel_bookstore)
   
-  * Electron (Coming)
 
 * REST
-  * [Data model](topic-django-rest.md)
+  * Object relationship model (ORM)
+    * [Django Data model](topic-django-rest.md)
+    * Flask w/SQLAlchemcy
+    * Node.js w/typeORM
   * Backend
     * [Python Django REST](https://github.com/ccapeng/bookstore_openapi)
     * [Python Flask REST](https://github.com/ccapeng/bookstore_flask_api)
     * [Node.js w/typeORM](https://github.com/ccapeng/typeorm-bookstore)
-    * Go: coming
-    * Java: coming  
 
   * Frontend
     * [React Context](https://github.com/ccapeng/bookstore-context)
     * [React Hook Redux](https://github.com/ccapeng/bookstore-hook-redux)
     * [React Hook Redux TypeScript](https://github.com/ccapeng/bookstore-tx-redux)
     * React Hook Redux TypeScript Advance : coming
-    * PWA: comping
     * Lazy loading and Dynamic imports: coming
     * [React with Jotai](https://github.com/ccapeng/bookstore-jotai)
       * Migrate state management from Redux to Jotai: Coming
