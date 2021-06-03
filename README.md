@@ -47,19 +47,20 @@ Use bookstore model as example in some different kinds of projects.
     * [Django Data model](topic-django-rest.md)
     * Flask w/SQLAlchemcy
     * Node.js w/typeORM
+    * Node.js w/Adonis
   * Backend
     * [Python Django REST](https://github.com/ccapeng/bookstore_openapi)
     * [Python Flask REST](https://github.com/ccapeng/bookstore_flask_api)
     * [Node.js w/typeORM](https://github.com/ccapeng/typeorm-bookstore)
+    * [Node.js w/Adonis](https://github.com/ccapeng/adonis-bookstore)
 
   * Frontend
     * [React Context](https://github.com/ccapeng/bookstore-context)
     * [React Hook Redux](https://github.com/ccapeng/bookstore-hook-redux)
     * [React Hook Redux TypeScript](https://github.com/ccapeng/bookstore-tx-redux)
-    * React Hook Redux TypeScript Advance : coming
     * Lazy loading and Dynamic imports: coming
     * [React with Jotai](https://github.com/ccapeng/bookstore-jotai)
-      * Migrate state management from Redux to Jotai: Coming
+      * [Migrate state management from Redux to Jotai](topic-migrate-redux-to-jotai.md)
 
 * GraphQL
   * Backend [Django Graphene](https://github.com/ccapeng/bookstore_graphene).
