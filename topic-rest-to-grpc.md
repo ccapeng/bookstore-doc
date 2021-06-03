@@ -1,34 +1,29 @@
 # Migrate from REST to gRPC
 
-[Under construction]
+\[Under construction\]
+
 * Repositories
-  * REST : [https://github.com/ccapeng/bookstore_api](https://github.com/ccapeng/bookstore_openapi)
-  * gRPC : [https://github.com/ccapeng/bookstore_grpc](https://github.com/ccapeng/bookstore_grpc)
-	
+  * REST : [https://github.com/ccapeng/bookstore\_api](https://github.com/ccapeng/bookstore_openapi)
+  * gRPC : [https://github.com/ccapeng/bookstore\_grpc](https://github.com/ccapeng/bookstore_grpc)
 * Create protobuf
-	* [django-grpc-framework] (https://djangogrpcframework.readthedocs.io/en/latest/protos.html#generate-proto-for-model) document.
-	
-
+  * \[django-grpc-framework\] \([https://djangogrpcframework.readthedocs.io/en/latest/protos.html\#generate-proto-for-model](https://djangogrpcframework.readthedocs.io/en/latest/protos.html#generate-proto-for-model)\) document.
 * Backend differences
-  * REST : 
-		* djangorestframework
-    * Implementation of  
+  * REST :
+    * djangorestframework
 
-        book.apis.py  
+      * Implementation of  
 
-        book.serializers.py
+      book.apis.py
+
+      book.serializers.py
 
     * Middleware cors : bypass the cross site origin.
     * Handle snake-case and camel-case inconsistency.
-
-  * grpc : 
+  * grpc :
     * djangorestframework + djangogrpcframework + grpcio + grpcio-tools
-    * Implementation of  
+    * Implementation of
 
-        book.schema.py
-
-
-		
+      book.schema.py
 * Frontend differences The difference is only the database query service.
   * REST : Use URL end point.  
     category.js
@@ -74,13 +69,15 @@
 
     request.js
 
-    ```javascript
-      const Request = {
+    \`\`\`javascript const Request = {
 
-          get: async (query) => {
-
-
-          }
-      }
+    ```text
+      get: async (query) => {
     ```
+
+```text
+      }
+  }
+```
+```
 

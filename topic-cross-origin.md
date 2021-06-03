@@ -1,12 +1,14 @@
 # How to handle cross origin?
 
 ## Why do we do that?
-Browser will poke cross site server with `OPTIONS` method to determine the access right. 
+
+Browser will poke cross site server with `OPTIONS` method to determine the access right.
+
 * If browser don't see the right header, then it won't take the data.
 * If server side don't handle `OPTIONS` method correctly, a server side  exception may be raised.
 
-
 ## REST
+
 * Repository : [https://github.com/ccapeng/bookstore\_openapi](https://github.com/ccapeng/bookstore_openapi)
 * To handle corss site origin `request` and `response`,  
   implement middleware `corsapp.middleware.CorsMiddleware`
@@ -24,7 +26,6 @@ Browser will poke cross site server with `OPTIONS` method to determine the acces
           response["Access-Control-Allow-Methods"] = "*"
 
           return response
-
   ```
 
   And adjust settings in `bookstore_openapi.settings.py`
@@ -38,8 +39,8 @@ Browser will poke cross site server with `OPTIONS` method to determine the acces
 
 * To bypass cross origin, 3 access control attributes were added to `response`.
 
-
 ## GraphQL
+
 * Repository : [https://github.com/ccapeng/bookstore\_graphQL](https://github.com/ccapeng/bookstore_graphQL)
 * To handle corss site origin `request` and `response`,  
   implement middleware `corsapp.middleware.CorsMiddleware`
@@ -80,11 +81,13 @@ Browser will poke cross site server with `OPTIONS` method to determine the acces
 
 * To bypass cross origin, 3 access control attributes were added to `response`.
 
-
 ## gRPC
+
 * It's handled by proxy Envoy.
+
   File : [envoy-bookstore-grpc.yaml](https://github.com/ccapeng/bookstore_grpc/blob/main/envoy/envoy-bookstore-grpc.yaml)
-  ```
+
+  ```text
   ...
   cors:
     allow_origin_string_match:
@@ -95,3 +98,4 @@ Browser will poke cross site server with `OPTIONS` method to determine the acces
     expose_headers: custom-header-1,grpc-status,grpc-message
   ...
   ```
+

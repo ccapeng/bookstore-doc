@@ -18,45 +18,50 @@
 ## Code Generator
 
 * [https://openapi-generator.tech/](https://openapi-generator.tech/) : this is openapi code generator home page,   
+
   you may got lost in here.
+
 * [jar file repository page](https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/),  
   to download the latest one.  
-  Or in windows, open PowerShell to download it :  
-  
+  Or in windows, open PowerShell to download it :
+
   `Invoke-WebRequest -OutFile swagger-codegen-cli.jar https://repo1.maven.org/maven2/io/swagger/swagger-codegen-cli/2.4.15/swagger-codegen-cli-2.4.15.jar`
-  
+
 * To use cli
   * Generate Flask code
-      ```
+
+    ```text
       d:\dvp\swagger>java -jar openapi-generator-cli.jar generate ^
         -i bookstore.yaml ^
         -g python-flask ^
         -o samples/bookstore/flask
-      ```
+    ```
+
   * Generate nodejs code : use the swagger-codegen-cli.jar.
-      ```
+
+    ```text
       d:\dvp\swagger>java -jar swagger-codegen-cli.jar generate ^
         -i bookstore.yaml ^
         -l nodejs-server ^
         -o samples/bookstore/nodejs
-      ```
-  
-  * Generate go code  
-      ```
+    ```
+
+  * Generate go code
+
+    ```text
       d:\dvp\swagger>java -jar openapi-generator-cli.jar generate ^
         -i bookstore.yaml ^
         -g go-gin-server ^
         -o samples/bookstore/gin
-      ```
-  
-      ```
+    ```
+
+    ```text
       d:\dvp\swagger>java -jar openapi-generator-cli.jar generate ^
         -i bookstore.yaml ^
         -g go-server ^
         -o samples/bookstore/go
-      ```
-      
+    ```
+
   * [More generators](https://openapi-generator.tech/docs/generators)
-  
 * Actually, \[django REST framework support\] OpenAPI\([https://www.django-rest-framework.org/community/3.10-announcement/](https://www.django-rest-framework.org/community/3.10-announcement/)\); however, the way to download yaml file is odd. Need further investigate.
 
