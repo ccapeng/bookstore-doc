@@ -70,13 +70,11 @@ Use bookstore model as example in some different kinds of projects.
 
 * gRPC
   * Backend
-
       [Django gRPC](https://github.com/ccapeng/bookstore_grpc).  
 
 
   * Frontend
     * [React redux grpc](https://github.com/ccapeng/bookstore-redux-grpc)
-  * How to migrate from REST? \(coming\)  
   
 * Migration Options:
   * Migrate Your Prototype to Your Coding framework :
