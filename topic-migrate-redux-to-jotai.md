@@ -28,6 +28,12 @@ There are really a lot of codes. Dig in each files to check the detail.
       
     }
   ```
+- Provider with store to wrap around [App](https://github.com/ccapeng/bookstore-hook-redux/blob/master/src/App.js).  
+  ```
+    <Provider store={store}>
+      <App />
+    </Provider>
+  ```
 
 
 ## With Jotai
