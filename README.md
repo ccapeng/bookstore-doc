@@ -72,6 +72,9 @@ Use bookstore model as example in some different kinds of projects.
 
       Once you have ideas to demo to team, you can start use the following to migrate.
     
+    * [Migrate Django to Flask](topic-migrate-django-to-flask.md)
+    * [Migrate Django to Node](topic-migrate-django-to-node.md)
+    
   * [React context and redux difference](topic-react-context-and-redux-diff.md)
   * [How to handle cross origin?](topic-cross-origin.md)
 
