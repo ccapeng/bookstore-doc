@@ -19,7 +19,6 @@ Use bookstore model as example in some different kinds of projects.
 * Fullstack MVC
   * [Django MVC](https://github.com/ccapeng/django-bookstore)
     * [Form validation in view class](topic-django-class-view-validation.md)
-      * Use PyPy to increase performance: coming
   * [Django REST Framework + React](https://github.com/ccapeng/bookstore_api)
     * [Serializer validation](topic-serializer-validation.md)
   * [Server Side React, login required](https://github.com/ccapeng/bookstore_pro)
@@ -47,7 +46,6 @@ Use bookstore model as example in some different kinds of projects.
     * [React Context](https://github.com/ccapeng/bookstore-context)
     * [React Hook Redux](https://github.com/ccapeng/bookstore-hook-redux)
     * [React Hook Redux TypeScript](https://github.com/ccapeng/bookstore-tx-redux)
-    * Lazy loading and Dynamic imports: coming
     * [React with Jotai](https://github.com/ccapeng/bookstore-jotai)
       * [Migrate state management from Redux to Jotai](topic-migrate-redux-to-jotai.md)
 * GraphQL
@@ -73,9 +71,10 @@ Use bookstore model as example in some different kinds of projects.
       It can be set up easy for the presentation.  
 
       Once you have ideas to demo to team, you can start use the following to migrate.
-
+    <!--
     * [Migrate Django to Flask](topic-migrate-django-to-flask.md)
     * [Migrate Django to Node](topic-migrate-django-to-node.md)
+    -->
   * [React context and redux difference](topic-react-context-and-redux-diff.md)
   * [How to handle cross origin?](topic-cross-origin.md)
 

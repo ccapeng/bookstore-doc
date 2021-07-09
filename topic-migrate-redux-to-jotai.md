@@ -1,4 +1,4 @@
-# Migrate Django to Flask
+# Migrate Stage Management Redux to Jotai
 
 ## With Redux
 There are really a lot of codes. Dig in each files to check the detail.
@@ -30,6 +30,7 @@ There are really a lot of codes. Dig in each files to check the detail.
   ```
 - Provider with store to wrap around [App](https://github.com/ccapeng/bookstore-hook-redux/blob/master/src/App.js).  
   ```
+    import { Provider } from "react-redux";
     <Provider store={store}>
       <App />
     </Provider>
@@ -67,5 +68,14 @@ Basically, both reducers and actions are not necessary any more.
     }
   ```
   
+- Provider with store to wrap around [App](https://github.com/ccapeng/bookstore-jotai/blob/master/src/index.js).  
+  ```
+  import { Provider } from "jotai";
+
+    <Provider store={store}>
+      <App />
+    </Provider>
+  ```
+
 ## Advanced Jotai
 - Use atom to load data. Move away the code to load from Component.
