@@ -18,10 +18,10 @@ Use bookstore model as example in some different kinds of projects.
 
 * Fullstack MVC
   * [Django MVC](https://github.com/ccapeng/django-bookstore)
-    * [Form validation in view class](https://github.com/ccapeng/bookstore-doc/tree/c3928451687f863f532c9f0f022c81ecd8edae19/topic-django-class-view-validation.md)
+    * [Form validation in view class](topic-django-class-view-validation.md)
       * Use PyPy to increase performance: coming
   * [Django REST Framework + React](https://github.com/ccapeng/bookstore_api)
-    * [Serializer validation](https://github.com/ccapeng/bookstore-doc/tree/c3928451687f863f532c9f0f022c81ecd8edae19/topic-serializer-validation.md)
+    * [Serializer validation](topic-serializer-validation.md)
   * [Server Side React, login required](https://github.com/ccapeng/bookstore_pro)
 
     Django REST Framework + Fully Server Side React JS \(No Next.js\)
@@ -49,7 +49,7 @@ Use bookstore model as example in some different kinds of projects.
     * [React Hook Redux TypeScript](https://github.com/ccapeng/bookstore-tx-redux)
     * Lazy loading and Dynamic imports: coming
     * [React with Jotai](https://github.com/ccapeng/bookstore-jotai)
-      * [Migrate state management from Redux to Jotai](https://github.com/ccapeng/bookstore-doc/tree/c3928451687f863f532c9f0f022c81ecd8edae19/topic-migrate-redux-to-jotai.md)
+      * [Migrate state management from Redux to Jotai](topic-migrate-redux-to-jotai.md)
 * GraphQL
   * Backend [Django Graphene](https://github.com/ccapeng/bookstore_graphene).
   * Frontend
@@ -74,8 +74,8 @@ Use bookstore model as example in some different kinds of projects.
 
       Once you have ideas to demo to team, you can start use the following to migrate.
 
-    * [Migrate Django to Flask](https://github.com/ccapeng/bookstore-doc/tree/c3928451687f863f532c9f0f022c81ecd8edae19/topic-migrate-django-to-flask.md)
-    * [Migrate Django to Node](https://github.com/ccapeng/bookstore-doc/tree/c3928451687f863f532c9f0f022c81ecd8edae19/topic-migrate-django-to-node.md)
+    * [Migrate Django to Flask](topic-migrate-django-to-flask.md)
+    * [Migrate Django to Node](topic-migrate-django-to-node.md)
   * [React context and redux difference](topic-react-context-and-redux-diff.md)
   * [How to handle cross origin?](topic-cross-origin.md)
 

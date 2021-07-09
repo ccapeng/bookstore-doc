@@ -67,3 +67,5 @@ Basically, both reducers and actions are not necessary any more.
     }
   ```
   
+## Advanced Jotai
+- Use atom to load data. Move away the code to load from Component.
